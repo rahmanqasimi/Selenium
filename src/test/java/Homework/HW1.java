@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Hw1 {
+public class HW1 {
     public static void main(String[] args) throws InterruptedException {
 //        create instance
         WebDriver driver = new ChromeDriver();
-//        maximize
+//        maximize the page
         driver.manage().window().maximize();
 //        navigate to the link
         driver.get("https://parabank.parasoft.com/parabank/register.htm;jsessionid=B8DD31FF0AFEDBDF4454B27BBC5C05B0%22");
