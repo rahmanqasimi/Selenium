@@ -48,9 +48,11 @@ public class HW3 {
 //      Select the radio buttons for Gender by clicking the male
         driver.findElement(By.xpath("//label[text()='Male']")).click();
 //      click the Sign Up button
-        driver.findElement(By.xpath("//button[@name='websubmit']")).click();
-//      10 sec sleep
-        Thread.sleep(10000);
+//        driver.findElement(By.xpath("//button[@name='websubmit']")).click();
+//        close the pop up
+        driver.findElement(By.xpath("//img[@class='_8idr img']")).click();
+//      4 sec sleep
+        Thread.sleep(4000);
 //      close the tab
         driver.close();
 
