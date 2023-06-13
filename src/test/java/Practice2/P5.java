@@ -1,5 +1,6 @@
 package Practice2;
 
+
 import Utils.CommonMethods;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
